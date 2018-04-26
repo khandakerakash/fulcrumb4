@@ -1,0 +1,15 @@
+.header {
+
+  &__top {
+    height: 1rem;
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($header-top-color-light, 0.8),
+                    rgba($header-top-color-dark, 0.8));
+  }
+
+  &__mid {
+    height: 4rem;
+    background: linear-gradient(-135deg,$header-mid-purple-color 0,$header-mid-blue-color 100%);
+  }
+}

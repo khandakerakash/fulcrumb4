@@ -1,0 +1,98 @@
+.feature-bottom {
+  margin-bottom: 10rem !important;
+  border-radius: $border-radius-three;
+  box-shadow: $box-shadow-medium;
+  color: $color-white;
+
+  transition: transform .3s;
+
+  &__text {
+    padding: 2.5rem;
+    font-size: $default-font-size;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: .5px;
+  }
+}
+
+.feature-box-1, .feature-box-2, .feature-box-3, .feature-box-4 {
+  h3 {
+    padding: 2.5rem;
+    text-align: left;
+    border-top-left-radius: $border-radius-three;
+    border-top-right-radius: $border-radius-three;
+    box-shadow: $box-shadow-small;
+  }
+}
+
+.feature-box-1 {
+  background-color: $feature-box-1-color;
+  transition: all .4s;
+
+  &:hover {
+    background-color: $feature-box-1-head-color;
+  }
+
+  h3 {
+    background-color: $feature-box-1-head-color;
+    transition: all .4s;
+
+    &:hover {
+      background-color: $feature-box-1-color;
+    }
+  }
+}
+
+.feature-box-2 {
+  background-color: $feature-box-2-color;
+  transition: all .4s;
+
+  &:hover {
+    background-color: $feature-box-2-head-color;
+  }
+
+  h3 {
+    background-color: $feature-box-2-head-color;
+    transition: all .4s;
+
+    &:hover {
+      background-color: $feature-box-2-color;
+    }
+  }
+}
+
+.feature-box-3 {
+  background-color: $feature-box-3-color;
+  transition: all .4s;
+
+  &:hover {
+    background-color: $feature-box-3-head-color;
+  }
+
+  h3 {
+    background-color: $feature-box-3-head-color;
+    transition: all .4s;
+
+    &:hover {
+      background-color: $feature-box-3-color;
+    }
+  }
+}
+
+.feature-box-4 {
+  background-color: $feature-box-4-color;
+  transition: all .4s;
+
+  &:hover {
+    background-color: $feature-box-4-head-color;
+  }
+
+  h3 {
+    background-color: $feature-box-4-head-color;
+    transition: all .4s;
+
+    &:hover {
+      background-color: $feature-box-4-color;
+    }
+  }
+}

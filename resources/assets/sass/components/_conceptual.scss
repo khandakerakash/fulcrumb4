@@ -1,0 +1,47 @@
+.sc-left-box {
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  background-color: rgba($color-white, .7);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: $box-shadow-medium;
+  transition: transform .3s;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-position: 100%;
+    background-color: rgba($red-color-dark, .5);
+  }
+}
+
+.sc-right-box {
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  background-color: rgba($color-white, .8);
+  font-size: 1.5rem;
+  padding: 10rem;
+  box-shadow: $box-shadow-medium;
+  transition: transform .3s;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-position: 100%;
+    background-color: rgba($color-primary, .8);
+    color: $color-white !important;
+  }
+}
+
+.conceptual-text {
+
+  p {
+    margin-bottom: 2rem;
+    text-align: justify;
+
+    animation: movieInbottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+  }
+}

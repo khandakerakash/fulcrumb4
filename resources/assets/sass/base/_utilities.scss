@@ -1,0 +1,82 @@
+//TEXT ALIGNMENT
+.u-center-text {text-align: center !important}
+.u-justify-text {text-align: justify !important}
+
+//TEXT MARGIN
+.u-margin-bottom-big {margin-bottom: 8rem !important}
+.u-margin-bottom-medium {margin-bottom: 4rem !important}
+.u-margin-bottom-small {margin-bottom: 2rem !important}
+.u-margin-bottom-x-small {margin-bottom: .5rem !important}
+
+.u-margin-top-x-big {margin-top: 10rem !important}
+.u-margin-top-big {margin-top: 8rem !important}
+
+//TEXT COLOR
+.u-text-color-white {color: #fff !important}
+
+//COMMON BORDER
+.u-border-nav {border: 1px solid #d4d4d4 !important;}
+.u-border-box {border: 2px solid #e5e5e5 !important;}
+
+.u-horizontal-line {background-color: $color-gray-light-1 !important;}
+
+//FOR ANIMATED PLUS/MINUS SIGN USING CSS
+.u-plus-minus__sign {
+  @include center-vertical-and-horizontal;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  font-size: 1.5em;
+  position: relative;
+  background-color: transparent!important;
+
+  span {
+    position: absolute;
+    transition: .3s;
+    background: $color-white;
+    border-radius: 2px;
+
+    &:first-of-type {
+      top: 25%;
+      bottom: 25%;
+      width: 10%;
+      left: 45%;
+    }
+
+    &:last-of-type {
+      left: 25%;
+      right: 25%;
+      height: 10%;
+      top: 45%;
+    }
+  }
+
+  &:hover span:first-of-type, button:hover span:last-of-type {
+    transform: rotate(90deg);
+  }
+
+  &:hover span:last-of-type {
+    left: 50%;
+    right: 50%;
+  }
+}
+
+//BOOTSTRAP4.1.0 DEFAULT OUTLINE AND SHADOW ARE OMITTED.
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline:0 !important;
+  -webkit-appearance:none !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}

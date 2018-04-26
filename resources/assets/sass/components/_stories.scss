@@ -1,0 +1,115 @@
+.bg-video {
+  @include center-vertical-and-horizontal;
+  height: 95vh;
+  width: 100%;
+  z-index: -1;
+  opacity: .3;
+  background-color: rgba($color-black, .4);
+  overflow: hidden;
+
+  @include respond(common-phone) {
+    height: 60vh !important;
+  }
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.story {
+  width: 85%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba($color-black, .1);
+  background-color: rgba($color-white, .6);
+  border-radius: $border-radius-three;
+  padding: 6rem;
+  font-size: $default-font-size;
+  transform: skewX(-12deg);
+
+  @include respond(tab-port) {
+    width: 100%;
+    padding: 4rem;
+  }
+
+  @include respond(common-phone) {
+    transform: skewX(0);
+  }
+
+  @include respond(phone) {
+    transform: skewX(0);
+  }
+
+  @include respond(phone) {
+    padding: 1rem !important;
+  }
+
+  &__shape {
+    width: 12rem;
+    height: 12rem;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg);
+    position: relative;
+
+    @include respond(common-phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
+
+    @include respond(phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
+
+    @include respond(small-phone) {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+
+  &__img {
+    height: 100%;
+    transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all .5s;
+  }
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    opacity: 0;
+    backface-visibility: hidden;
+    transition: all .5s;
+  }
+
+  &__text {
+    transform: skewX(12deg);
+
+    @include respond(common-phone) {
+      transform: skewX(0);
+    }
+
+    @include respond(phone) {
+      transform: skewX(0);
+    }
+  }
+
+  &:hover &__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover &__img {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%);
+  }
+}

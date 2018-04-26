@@ -1,0 +1,16 @@
+.carousel {
+  height: 80vh !important;
+
+  @include respond(common-phone) {
+    height: 50vh !important;
+  }
+}
+
+.carousel-inner img {
+  height: 80vh !important;
+  width: 100% !important;
+
+  @include respond(common-phone) {
+    height: 50vh !important;
+  }
+}
