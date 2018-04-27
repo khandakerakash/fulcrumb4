@@ -2,25 +2,25 @@
   border-bottom: 1px solid $color-gray-light-1;
   position: relative;
 
-  &:after {
-    content: "";
-    position: absolute;
-    right: 16%;
-    bottom: 0;
-    height: 100%;
-    width: 1px;
-    background-color: $color-gray-light-1;
-  }
-
-  &:before {
-    content: "";
-    position: absolute;
-    left: 11%;
-    bottom: 0;
-    height: 100%;
-    width: 1px;
-    background-color: $color-gray-light-1;
-  }
+  //&:before {
+  //  content: "";
+  //  position: absolute;
+  //  left: 11%;
+  //  bottom: 0;
+  //  height: 100%;
+  //  width: 1px;
+  //  background-color: $color-gray-light-1;
+  //}
+  //
+  //&:after {
+  //  content: "";
+  //  position: absolute;
+  //  right: 13.8%;
+  //  bottom: 0;
+  //  height: 100%;
+  //  width: 1px;
+  //  background-color: $color-gray-light-1;
+  //}
 
   &--logo {
 
@@ -88,10 +88,10 @@
       overflow: hidden !important;
       @include clearfix;
       color: $header-top-color-dark !important;
-      background-color: transparent !important;
-      box-shadow: 0 1rem 2rem rgba($color-black, .1);
-      transition: border .2s ease-out,color .2s ease-out;
-      border-bottom: 2px solid $color-primary;
+      //background-color: transparent !important;
+      //box-shadow: 0 1rem 2rem rgba($color-black, .1);
+      //transition: border .2s ease-out,color .2s ease-out;
+      //border-bottom: 2px solid $color-primary;
     }
   }
 }

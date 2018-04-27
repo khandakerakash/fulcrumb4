@@ -1,4 +1,8 @@
 //BACKGROUND COLORS
+$default-bg-color: #E7E6E6;
+$bg-color-dark: #212121;
+//$bg-color-red: #B3071E;
+$bg-color-red: #A8061D;
 
 //HEADER COLORS
 $header-top-color-dark: #E74430;
@@ -15,6 +19,10 @@ $color-gray-light-2: #ddd;
 
 $color-gray-dark-1: #7A7A7A;
 $color-gray-dark-2: #777;
+$color-gray-dark-3: #999;
+
+$color-dark: #333;
+
 
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
@@ -26,11 +34,36 @@ $color-secondary-dark: #ff7730;
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
 
+
 //FONT COLORS
 
 
 //FONT SIZE
 $default-font-size: 1.6rem;
-
 $x-small-font-size: 1.4rem;
 $small-font-size: 1.5rem;
+$medium-font-size: 2rem;
+$large-font-size: 2.5rem;
+$x-large-font-size: 3rem;
+
+$icon-font-size-big: 6rem;
+
+
+//BORDER RADIUS AND
+$border-radius-1: 1px;
+$border-radius-2: 2px;
+$border-radius-3: 3px;
+
+$border-radius-btn: 10rem;
+
+
+//BOX SHADOW
+$box-shadow-big: 0 2.5rem 4rem rgba($color-black, .5);
+$box-shadow-medium: 0 1.5rem 4rem rgba($color-black, .15);
+$box-shadow-small: 0 1rem 2rem rgba($color-black, .15);
+$box-shadow-x-small: 0 .5rem 2rem rgba($color-black, .15);
+
+$box-shadow-btn-hover: 0 1rem 2rem rgba($color-black,.2);
+$box-shadow-btn-active: 0 .5rem 1rem rgba($color-black,.2);
+$box-shadow-text-hover: .5rem 1rem 2rem rgba($color-black, .2);
+

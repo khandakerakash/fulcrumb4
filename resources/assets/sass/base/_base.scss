@@ -8,7 +8,7 @@
 
 html {
   // This defines what 1rem is?
-  font-size: 62.5%; /* we know that, 1rem = 10px, default font-size: 16px */
+  font-size: 62.5% !important; /* we know that, 1rem = 10px, default font-size: 16px */
 
   @include respond(tab-land) { // < 1200 ?
     font-size: 56.25%; // 1rem = 9px, 9/16 = 56.25%

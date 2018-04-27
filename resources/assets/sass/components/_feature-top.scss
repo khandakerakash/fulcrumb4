@@ -12,7 +12,7 @@
     position: absolute;
     top: 2.5rem;
     width: 100% !important;
-    border-bottom: 1px solid $color-gray-light;
+    border-bottom: 1px solid $color-gray-light-1;
   }
 
   span:before {
@@ -28,9 +28,9 @@
 
 .feature-box {
   background-color: rgba($color-white, .8);
-  font-size: 1.5rem;
+  font-size: $small-font-size;
   padding: 2.5rem;
-  border-radius: $border-radius-three;
+  border-radius: $border-radius-3;
   box-shadow: $box-shadow-medium;
   transition: transform .3s;
 
@@ -44,6 +44,16 @@
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
     color: transparent;
+  }
+
+  &__text {
+    color: $color-gray-dark-2;
+    font-size: $default-font-size;
+    font-weight: 400;
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
   }
 
   &:hover {

@@ -1,12 +1,14 @@
 <nav class="navbar navbar-expand-sm navbar-light main__navbar">
     <div class="container-fluid">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <a href="index.html" class="navbar-brand">
             <img src="{{asset('images/logo.png')}}" alt="Fulcrum Logo" class="img-fluid main__navbar--logo">
         </a>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <div class="collapse navbar-collapse" id="navbarNav">
             <div class="col">
                 <div class="form-group main__navbar--search">
                     <input type="text"

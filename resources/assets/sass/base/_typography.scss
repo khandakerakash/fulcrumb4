@@ -29,49 +29,83 @@ body {
     letter-spacing: .5rem;
   }
 }
-//
-//.heading-secondary {
-//  font-size: 2.5rem;
-//  text-transform: uppercase;
-//  font-weight: 600;
-//  display: inline-block;
-//  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-//  -webkit-background-clip: text;
-//  color: transparent;
-//  letter-spacing: .2rem;
-//  transition: all .2s;
-//
-//  @include respond(tab-port) {
-//    font-size: 2rem;
-//  }
-//
-//  @include respond(phone) {
-//    font-size: $default-font-size;
-//    font-weight: 400;
-//  }
-//
-//  &:hover {
-//    transform: skewY(2deg) skewX(15deg) scale(1.1);
-//    text-shadow: $box-shadow-text-hover;
-//  }
-//}
-//
-//.heading-tertiary {
-//  font-size: $default-font-size;
-//  font-weight: 600;
-//  text-transform: uppercase;
-//}
-//
-//.paragraph {
-//  font-size: $default-font-size;
-//  font-weight: 300;
-//
-//  &:not(:last-child) {
-//    margin-bottom: 3rem;
-//  }
-//}
-//
-//.blockquote {
-//  font-size: 2rem !important;
-//  font-weight: 600 !important;
-//}
+
+
+.carousel-caption {
+  font-family: 'Audiowide', cursive !important;
+
+  &__heading {
+    font-size: $medium-font-size;
+    color: $color-white !important;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    display: block;
+    z-index: 9999!important;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &__text {
+    font-size: $default-font-size;
+    color: $color-white !important;
+    font-weight: 400;
+    letter-spacing: .3rem;
+    backface-visibility: hidden;
+
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+
+.heading-secondary {
+  font-size: $large-font-size;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s;
+
+  @include respond(tab-port) {
+    font-size: 2rem;
+  }
+
+  @include respond(phone) {
+    font-size: $default-font-size;
+    font-weight: 400;
+  }
+
+}
+
+.heading-tertiary {
+  font-size: $medium-font-size;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  font-weight: 300;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.blockquote {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+}
