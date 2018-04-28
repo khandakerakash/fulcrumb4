@@ -10127,7 +10127,6 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
 }
 
 .studio__left-top__inner-content {
-  background-color: rgba(168, 6, 29, 0.8);
   height: 70vh;
   width: 100%;
   padding: 4rem 2rem;
@@ -10891,6 +10890,18 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
   transition: all 1s ease;
   -webkit-transition-delay: .8s;
           transition-delay: .8s;
+}
+
+.bg-color {
+  background-color: rgba(168, 6, 29, 0.8);
+}
+
+.innerText {
+  display: none;
+}
+
+.rightshowDiv {
+  display: none;
 }
 
 .header__top {
