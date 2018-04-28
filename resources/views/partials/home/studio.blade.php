@@ -1,64 +1,176 @@
 <section id="studio-section">
+
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-7">
-                <div class="studio__left-top" style="background-image: url({{asset('images/studio/concept-img-1.jpg')}});">
-                    <div class="studio__left-top--btn-plus">
-                        <button class="u-plus-minus__sign">
-                            <span></span>
-                            <span></span>
-                        </button>
-                    </div>
-
-                    <div class="studio__left-top__inner-content"><!-- Inner should be hide/show on hover on plus button -->
-                        <div class="studio__left-top__inner-content__heading">
-                            <h2>Design graphique &nbsp;</h2>
+            <div class="col-12 paddingRemove">
+                <div class="leftDiv1 backImage sectionDiv1" style='background-image: url("image/3.jpg");'>
+                    <div>
+                        <div class="btn-square1">
+                            <span class="close"></span>
+                        </div>
+                        <div class="innerText1">
+                            <h2>Design graphique</h2>
                             <h3>Imaginer des concepts</h3>
-                        </div>
-
-                        <div class="studio__left-top__inner-content__details">
-                            <p class="paragraph u-justify-text">
-                                <span>Service</span>
-                            </p>
-                            <ul>
-                                <li>Direction artistique / Graphisme web et print</li>
-                                <li>Conception logo / identité visuelle / Charte graphique</li>
-                                <li>Webdesign / Responsive, UI et UX webdesign</li>
-                                <li>Création tous types de supports imprimés</li>
-                                <li>Photographie / Video / Motion design</li>
-                            </ul>
-                            <a href="#" class="btn-text">Learn more &rarr;</a>
-                        </div>
-                    </div><!-- Inner End -->
-
-                </div>
-            </div>
-
-            <div class="col-lg-5">
-                <div class="studio__right-top">
-                    <div class="studio__right-top__heading">
-                        <h2>Studio de creation &nbsp;</h2>
-                        <h3>Design graphique, Webdesign & Photographie/Video</h3>
-                    </div>
-
-                    <div class="studio__right-top__details">
-                        <p class="paragraph u-justify-text">
-                            Nous imaginons votre communication visuelle afin de promouvoir votre activite, vos produits, informer vos clients et prospects, et vous demarquer de la concurrence.
                             <br>
-                            Un etat d'esprit carre, une creativite sans cesse renouvelee qui vient jouer et briser les cadres etablis, une constante : toujours une pointe de fun !
-                        </p>
-                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                            <br>
+                            <br>
+                            <p>SERVICES___________________________</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            </p>
+
+                        </div>
+
                     </div>
 
-                    <div class="studio__right-top__inner-content"><!-- Inner should be hide/show on hover on plus button -->
-                        <div class="studio__right-top__inner-content__heading">
-                            <h2>Studio de creation &nbsp;</h2>
-                        </div>
-                    </div><!-- Inner End -->
-                    
+                </div>
+                <div class="rightDiv1 paddingRemove">
+                    <div style="padding: 20px;" class="rightshowDiv1">
+                        <h2>Studio de création</h2>
+                        <h5>Design graphique, Webdesign & Photographie/Vidéo</h5>
+
+                        <p style="margin-top: 90px;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                        </p>
+                    </div>
+                    <div class="blackBox1">
+                        <h1>Stidio de Creation</h1>
+                    </div>
+
                 </div>
             </div>
+
         </div>
     </div>
-    <!-- Studio de creation -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 paddingRemove">
+                <div class="rightDiv paddingRemove">
+                    <div class="leftpartHide" style="padding: 20px;">
+                        <h2>Studio de création</h2>
+                        <h5>Design graphique, Webdesign & Photographie/Vidéo</h5>
+
+                        <p style="margin-top: 90px;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                        </p>
+                    </div>
+                    <div class="blackBox">
+                        <h1>Stidio de Creation</h1>
+                    </div>
+
+                </div>
+                <div class="leftDiv backImage sectionDiv" style='background-image: url("image/3.jpg");'>
+                    <div class="btn-square">
+                        <span class="close"></span>
+                    </div>
+                    <div>
+                        <div class="innerText">
+                            <h2>Design graphique</h2>
+                            <h3>Imaginer des concepts</h3>
+                            <br>
+                            <br>
+                            <br>
+                            <p>SERVICES___________________________</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 paddingRemove">
+                <div class="leftDiv backImage sectionDiv2" style='background-image: url("image/3.jpg");'>
+                    <div>
+                        <div class="btn-square2">
+                            <span class="close"></span>
+                        </div>
+                        <div class="innerText2">
+                            <h2>Design graphique</h2>
+                            <h3>Imaginer des concepts</h3>
+                            <br>
+                            <br>
+                            <br>
+                            <p>SERVICES___________________________</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="rightDiv paddingRemove">
+                    <div style="padding: 20px;" class="rightshowDiv2">
+                        <h2>Studio de création</h2>
+                        <h5>Design graphique, Webdesign & Photographie/Vidéo</h5>
+
+                        <p style="margin-top: 90px;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                        </p>
+                    </div>
+                    <div class="blackBox2">
+                        <h1>Stidio de Creation</h1>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
 </section>
