@@ -8,7 +8,7 @@
                         <div class="btn-square1">
                             <span class="close"></span>
                         </div>
-                        <div class="innerText1" data-aos="fade-up">
+                        <div class="innerText1" data-aos-delay="100" data-aos="fade-up">
                             <h1 class="innerTextTitle">Design graphique</h1>
                             <h2 class="innerTextSubTitle">Imaginer des concepts</h2>
                             <br>

@@ -435,7 +435,7 @@
             sectionDIv.closest('.row').find('.blackBox').toggle();
             sectionDIv.closest('.row').find('.leftpartHide').toggle();
             sectionDIv.closest('.row').find('.backImage').toggleClass('bg_red');
-            sectionDIv.closest('.row').find(".innerText").toggle();
+            sectionDIv.closest('.row').find(".innerText").toggle('show');
 
             if ($(this).hasClass(event.data.animateIn)) {
                 $(this).removeClass(event.data.animateIn).addClass(event.data.animateOut);
