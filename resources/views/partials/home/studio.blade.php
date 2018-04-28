@@ -73,7 +73,6 @@
                     <div class="leftpartHide" style="padding: 20px;">
                         <h1  data-aos="fade-up" class="titleStyle">Studio de création</h1>
                         <h2  data-aos="fade-up" class="subTitleColor">Design graphique, Webdesign & Photographie/Vidéo</h2>
-
                         <p  data-aos="fade-up" style="margin-top: 90px;">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.

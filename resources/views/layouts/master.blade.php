@@ -10,17 +10,19 @@
     <title>Home | @yield('title')</title>
 
     <!-- FONT AWESOME CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('aos/aos.css') }}" rel="stylesheet">
     @yield('css')
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0 auto;
         }
-        .plusDiv{
+
+        .plusDiv {
             /*background-color: red;*/
             background-color: rgba(255, 0, 0, 0.4);
             width: 100px;
@@ -31,7 +33,8 @@
             left: 665px;
             top: 500px;
         }
-        .closeDiv{
+
+        .closeDiv {
             /*background-color: red;*/
             background-color: rgba(255, 0, 0, 0.4);
             width: 100px;
@@ -42,13 +45,15 @@
             left: 665px;
             top: 500px;
         }
-        .closeDiv1{
+
+        .closeDiv1 {
             /*background-color: red;*/
             background-color: rgba(255, 0, 0, 0.7);
             width: 750px;
             height: 600px;
         }
-        .backImage{
+
+        .backImage {
             /*width: 750px;
             height: 600px;*/
             background-blend-mode: multiply;
@@ -57,38 +62,43 @@
             background-repeat: no-repeat;
             height: 706.656px;
         }
-        .bg_red, .bg_red1, .bg_red2{
+
+        .bg_red, .bg_red1, .bg_red2 {
             background-color: rgba(255, 0, 0, 0.6);
         }
-        .paddingRemove{
+
+        .paddingRemove {
             padding: 0;
             margin: 0 auto;
             width: 1200px;
         }
-        .blackBox, .blackBox1, .blackBox2{
-             text-align: center;
-             padding-top: 328.5px;
-             padding-bottom: 325px;
-             background: #000000;
-             color: #fff;
-         }
 
-        .blackBox h1, .blackBox1 h1, .blackBox2 h1{
+        .blackBox, .blackBox1, .blackBox2 {
+            text-align: center;
+            padding-top: 328.5px;
+            padding-bottom: 325px;
+            background: #000000;
+            color: #fff;
+        }
+
+        .blackBox h1, .blackBox1 h1, .blackBox2 h1 {
             font-size: 40px;
             font-style: italic;
             font-weight: bold;
         }
-        .innerText, .innerText1, .innerText2{
+
+        .innerText, .innerText1, .innerText2 {
             padding: 100px;
             color: #fff;
         }
-        .innerTextTitle{
-            font-size: 30px;
-             font-style: italic;
-             font-weight: bold;
-         }
 
-        .innerTextSubTitle{
+        .innerTextTitle {
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .innerTextSubTitle {
             font-size: 20px;
             font-style: italic;
             font-weight: bold;
@@ -105,7 +115,6 @@
             display: inline-block;
             font-size: 16px;
         }
-
 
         body {
             font-family: sans-serif;
@@ -132,6 +141,7 @@
             margin-top: 607px;
 
         }
+
         .btn-square1 {
             width: 100px;
             height: 100px;
@@ -157,6 +167,7 @@
             margin-top: 607px;
 
         }
+
         .close {
             position: relative;
             display: inline-block;
@@ -166,6 +177,7 @@
             left: -25px;
             overflow: hidden;
         }
+
         .close::before, .close::after {
             content: '';
             position: absolute;
@@ -176,9 +188,11 @@
             margin-top: -1px;
             background: #fff;
         }
+
         .close::before {
             transform: rotate(0deg);
         }
+
         .close::after {
             transform: rotate(90deg);
         }
@@ -206,6 +220,7 @@
                 background-color: rgba(255, 255, 255, 0.6);
             }
         }
+
         @keyframes plusButton {
             from {
                 -webkit-transform-origin: center;
@@ -222,6 +237,7 @@
                 background-color: rgba(255, 255, 255, 0.6);
             }
         }
+
         .plusButton {
             -webkit-animation-name: plusButton;
             animation-name: plusButton;
@@ -243,6 +259,7 @@
                 background-color: rgba(255, 0, 0, 0.6);
             }
         }
+
         @keyframes closeButton {
             from {
                 -webkit-transform-origin: center;
@@ -259,6 +276,7 @@
                 background-color: rgba(255, 0, 0, 0.6);
             }
         }
+
         .closeButton {
             -webkit-animation-name: closeButton;
             animation-name: closeButton;
@@ -279,6 +297,7 @@
                 border-radius: 100px;
             }
         }
+
         @keyframes circleShape {
             from {
                 -webkit-transform-origin: center;
@@ -294,6 +313,7 @@
                 border-radius: 100px;
             }
         }
+
         .circleShape {
             -webkit-animation-name: circleShape;
             animation-name: circleShape;
@@ -315,6 +335,7 @@
                 border-radius: 0px;
             }
         }
+
         @keyframes squareShape {
             from {
                 -webkit-transform-origin: center;
@@ -331,27 +352,31 @@
                 border-radius: 0px;
             }
         }
+
         .squareShape {
             -webkit-animation-name: squareShape;
             animation-name: squareShape;
         }
 
-        .leftDiv{
+        .leftDiv {
             width: 581px;
             float: left;
         }
-        .rightDiv{
+
+        .rightDiv {
             width: 482px;
             float: left;
         }
 
-        .leftDiv1{
+        .leftDiv1 {
             /*width: 681px;*/
             width: 51%;
             float: left;
         }
-        .rightDiv1{
-            /*width: 668px;*/width: 49%;
+
+        .rightDiv1 {
+            /*width: 668px;*/
+            width: 49%;
 
             float: right;
         }
@@ -361,7 +386,8 @@
             font-weight: bold;
             font-style: italic;
         }
-        .subTitleColor{
+
+        .subTitleColor {
             color: #0000002e;
             font-style: italic;
         }
@@ -384,29 +410,37 @@
 <script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('aos/aos.js')}}"></script>
 <script>
-    AOS.init();
+    $(window).on('load', function () {
+        AOS.init({
+            easing: 'ease-out', duration: 1100, disable: function () {
+                var maxWidth = 1020;
+                return window.innerWidth < maxWidth;
+            }
+        });
+    });
 </script>
 
 <script>
 
-    $(function() {
+    $(function () {
 
         $('.blackBox').hide();
         $('.leftpartHide').show();
         $('.innerText').hide();
         $(".btn-square").click({animateIn: "circleShape", animateOut: "squareShape"}, animate_function);
-        function animate_function(event){
+
+        function animate_function(event) {
             var info = $(this);
-            var sectionDIv  = info.closest('.sectionDiv');
+            var sectionDIv = info.closest('.sectionDiv');
             sectionDIv.closest('.row').find('.blackBox').toggle();
             sectionDIv.closest('.row').find('.leftpartHide').toggle();
             sectionDIv.closest('.row').find('.backImage').toggleClass('bg_red');
             sectionDIv.closest('.row').find(".innerText").toggle();
 
-            if( $(this).hasClass(event.data.animateIn) ) {
+            if ($(this).hasClass(event.data.animateIn)) {
                 $(this).removeClass(event.data.animateIn).addClass(event.data.animateOut);
             }
-            else if( $(this).hasClass(event.data.animateOut) ) {
+            else if ($(this).hasClass(event.data.animateOut)) {
                 $(this).removeClass(event.data.animateOut).addClass(event.data.animateIn);
             }
             else {
@@ -415,23 +449,23 @@
         }
 
 
-
         //do something
         $('.blackBox1').hide();
         $('.innerText1').hide();
         $('.bg_red1').hide();
         $(".btn-square1").click({animateIn: "circleShape", animateOut: "squareShape"}, animate_function1);
-        function animate_function1(event){
+
+        function animate_function1(event) {
             var info = $(this);
-            var sectionDIv  = info.closest('.sectionDiv1');
+            var sectionDIv = info.closest('.sectionDiv1');
             sectionDIv.toggleClass('bg_red1');
             sectionDIv.find(".innerText1").toggle();
             sectionDIv.closest('.row').find('.rightshowDiv1').toggle();
             sectionDIv.closest('.row').find('.blackBox1').toggle();
-            if( $(this).hasClass(event.data.animateIn) ) {
+            if ($(this).hasClass(event.data.animateIn)) {
                 $(this).removeClass(event.data.animateIn).addClass(event.data.animateOut);
             }
-            else if( $(this).hasClass(event.data.animateOut) ) {
+            else if ($(this).hasClass(event.data.animateOut)) {
                 $(this).removeClass(event.data.animateOut).addClass(event.data.animateIn);
             }
             else {
@@ -444,18 +478,19 @@
         $('.innerText2').hide();
         $('.bg_red2').hide();
         $(".btn-square2").click({animateIn: "circleShape", animateOut: "squareShape"}, animate_function2);
-        function animate_function2(event){
+
+        function animate_function2(event) {
             var info = $(this);
-            var sectionDIv  = info.closest('.sectionDiv2');
+            var sectionDIv = info.closest('.sectionDiv2');
             sectionDIv.toggleClass('bg_red2');
             sectionDIv.find(".innerText2").toggle();
             sectionDIv.closest('.row').find('.rightshowDiv2').toggle();
             sectionDIv.closest('.row').find('.blackBox2').toggle();
 
-            if( $(this).hasClass(event.data.animateIn) ) {
+            if ($(this).hasClass(event.data.animateIn)) {
                 $(this).removeClass(event.data.animateIn).addClass(event.data.animateOut);
             }
-            else if( $(this).hasClass(event.data.animateOut) ) {
+            else if ($(this).hasClass(event.data.animateOut)) {
                 $(this).removeClass(event.data.animateOut).addClass(event.data.animateIn);
             }
             else {
