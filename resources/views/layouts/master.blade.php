@@ -13,6 +13,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('aos/aos.css') }}" rel="stylesheet">
     @yield('css')
     <style>
         *{
@@ -65,22 +66,51 @@
             width: 1200px;
         }
         .blackBox, .blackBox1, .blackBox2{
-            text-align: center;
-            padding-top: 325px;
-            padding-bottom: 325px;
-            background: #000000;
-            color: #fff;
+             text-align: center;
+             padding-top: 328.5px;
+             padding-bottom: 325px;
+             background: #000000;
+             color: #fff;
+         }
+
+        .blackBox h1, .blackBox1 h1, .blackBox2 h1{
+            font-size: 40px;
+            font-style: italic;
+            font-weight: bold;
         }
         .innerText, .innerText1, .innerText2{
             padding: 100px;
             color: #fff;
         }
+        .innerTextTitle{
+            font-size: 30px;
+             font-style: italic;
+             font-weight: bold;
+         }
 
+        .innerTextSubTitle{
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            color: red;
+        }
+
+        .button {
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
 
 
         body {
             font-family: sans-serif;
             color: #000000;
+            font-size: 14px;
         }
 
         .btn-round {
@@ -326,6 +356,16 @@
             float: right;
         }
 
+        .titleStyle {
+            font-size: 36px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .subTitleColor{
+            color: #0000002e;
+            font-style: italic;
+        }
+
     </style>
 </head>
 <body>
@@ -342,7 +382,10 @@
 
 <!-- JS -->
 <script src="{{asset('js/app.js')}}"></script>
-@yield('app-scripts')
+<script src="{{asset('aos/aos.js')}}"></script>
+<script>
+    AOS.init();
+</script>
 
 <script>
 
@@ -426,6 +469,6 @@
     });
 
 </script>
-
+@yield('app-scripts')
 </body>
 </html>
