@@ -10206,7 +10206,6 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
 .studio__right-top {
   height: 70vh;
   width: 100%;
-  padding: 4rem 2rem;
 }
 
 .studio__right-top__heading {
@@ -11034,5 +11033,9 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
   #studio-section {
     padding: 1rem 0;
   }
+}
+
+#studio-section .container-fluid {
+  padding: 0 !important;
 }
 

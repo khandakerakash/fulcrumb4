@@ -1,6 +1,6 @@
 <section id="studio-section">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col-lg-7">
                 <div class="studio__left-top" style="background-image: url({{asset('images/studio/concept-img-1.jpg')}});">
                     <div class="studio__left-top--btn-plus">
