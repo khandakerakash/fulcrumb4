@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 paddingRemove">
-                <div class="leftDiv1 backImage sectionDiv1" style='background-image: url("image/3.jpg");'>
+                <div class="leftDiv1 backImage sectionDiv1" style='background-image: url("{{url('/images/3.jpg')}}");'>
                     <div>
                         <div class="btn-square1">
                             <span class="close"></span>
@@ -85,7 +85,7 @@
                     </div>
 
                 </div>
-                <div class="leftDiv backImage sectionDiv" style='background-image: url("image/3.jpg");'>
+                <div class="leftDiv backImage sectionDiv" style='background-image: url("{{url('/images/3.jpg')}}");'>
                     <div class="btn-square">
                         <span class="close"></span>
                     </div>
@@ -113,7 +113,7 @@
         </div>
         <div class="row">
             <div class="col-12 paddingRemove">
-                <div class="leftDiv backImage sectionDiv2" style='background-image: url("image/3.jpg");'>
+                <div class="leftDiv backImage sectionDiv2" style='background-image: url("{{url('/images/3.jpg')}}");'>
                     <div>
                         <div class="btn-square2">
                             <span class="close"></span>
