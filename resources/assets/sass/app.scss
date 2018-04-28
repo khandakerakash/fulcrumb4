@@ -32,11 +32,12 @@
 @import "components/feature-top";
 //@import "components/preloader";
 @import "components/slider";
-//@import "components/stories";
+@import "components/stories";
 @import "components/studio";
-//@import "components/feature-bottom";
+@import "components/feature-bottom";
 
 //LAYOUT
+@import "layout/footer";
 @import "layout/header";
 @import "layout/navigation";
 

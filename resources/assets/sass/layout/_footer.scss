@@ -1,0 +1,134 @@
+
+#footer-section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+}
+
+.newsletter {
+  padding: 5rem 0;
+}
+
+.newsletter-title {
+  padding: 2rem 0;
+
+  h2 {
+    padding: 2rem 0;
+  }
+
+  p {
+    color: $color-white !important;
+  }
+}
+
+span.form-control--icon {
+  display:  inline-block;
+  float:  right;
+  margin-top: -3.5rem;
+  padding-right: 1rem;
+  color: $color-white !important;
+}
+
+#footer-section .form-control {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  padding: 2rem!important;
+}
+
+.form-control:focus {
+  border: 0!important;
+  outline: 0!important;
+  -webkit-appearance:none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.footer-bottom {
+  color: #ffffff;
+}
+
+.address h2 {
+  text-align: left;
+}
+
+.instagram h2 {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.visit h2 {
+  text-align: right;
+}
+
+.visit p {
+  text-align: justify;
+}
+
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.0);
+  //padding: .2rem 1.25rem;
+  float: left;
+  margin-left: 0 !important;
+}
+
+.footer-top {
+  position: relative;
+}
+
+.footer-bottom {
+  padding-top: 6rem;
+}
+
+.overly-footer-top {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 0;
+  left: 0;
+}
+
+.overly-footer-bottom {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 30%;
+  left: 0;
+}
+
+.footer__bottom--copyright {
+  margin-top: 2rem;
+  text-align: center;
+
+  &--link {
+    &:link,
+    &:visited {
+      text-transform: uppercase;
+      padding: .2rem;
+      color: $color-gray-light-1;
+      background-color: rgba($color-black, .6);
+      text-decoration: none;
+      display: inline-block;
+      transition: all .2s;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-primary;
+    }
+  }
+}
+
+@include respond(common-phone) {
+  .instagram {
+    display: none !important;
+    opacity: 0;
+  }
+}

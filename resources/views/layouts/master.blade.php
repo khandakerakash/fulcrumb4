@@ -401,14 +401,14 @@
     @include('partials/common/header')
     @include('partials/common/nav')
     @yield('content')
-
-    {{--@include('partials/common/footer')--}}
+    @include('partials/common/footer')
 </div>
 <!-- /#app -->
 
 <!-- JS -->
 <script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('aos/aos.js')}}"></script>
+<script src="{{asset('js/multislider.min.js')}}"></script>
 <script>
     $(window).on('load', function () {
         AOS.init({
@@ -502,7 +502,18 @@
 
         //end do something
     });
+</script>
 
+<script>
+    // For Multiple Item Client Slider
+    $('#basicSlider').multislider({
+        continuous: true,
+        duration: 2000
+    });
+    $('#mixedSlider').multislider({
+        duration: 750,
+        interval: 3000
+    });
 </script>
 @yield('app-scripts')
 </body>
