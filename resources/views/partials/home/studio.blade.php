@@ -3,12 +3,12 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 paddingRemove">
-                <div data-aos="fade-up" class="leftDiv1 backImage sectionDiv1" style='background-image: url("{{url('/images/3.jpg')}}");'>
-                    <div data-aos="fade-up">
+                <div data-aos="fade-up" class="leftDiv1 backImage sectionDiv1 aos-animate" data-aos="fade-up" style='background-image: url("{{url('/images/3.jpg')}}");'>
+                    <div>
                         <div class="btn-square1">
                             <span class="close"></span>
                         </div>
-                        <div class="innerText1">
+                        <div class="innerText1" data-aos="fade-up">
                             <h1 class="innerTextTitle">Design graphique</h1>
                             <h2 class="innerTextSubTitle">Imaginer des concepts</h2>
                             <br>
@@ -55,8 +55,8 @@
                         </p>
 
                     </div>
-                    <div class="blackBox1">
-                        <h1>Stidio de Creation</h1>
+                    <div class="blackBox1" >
+                        <h1 data-aos="fade-up">Stidio de Creation</h1>
                     </div>
 
                 </div>
